@@ -21,8 +21,11 @@ for(int i=1;i<=4;i++)
 		cout<<k;
 		j<4?k++:k--;}
 		else
+		{
 		cout<<" ";
-		
+		if(j==4)
+		k--;
+		}
 	}
 	cout<<"\n";
 }
